@@ -1,0 +1,36 @@
+# ─── Sensitive Configuration ───
+includes/config.php
+includes/mailer.php
+
+# ─── Database dumps (may contain sensitive data) ───
+# Comment out the next line if you WANT to push the schema
+# database.sql
+
+# ─── Node dependencies ───
+node_modules/
+package-lock.json
+
+# ─── Large image directories ───
+Hotel_Images/
+
+# ─── Python cache & scripts (dev-only utilities) ───
+__pycache__/
+*.pyc
+download_hotel_images.php
+download_images.py
+download_pkg_bus.py
+get_wiki_buses.py
+
+# ─── OS / Editor junk ───
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+*.swp
+
+# ─── XAMPP / PHP temp files ───
+check_db.php
+setup.php
+setup_hotels.php
+arch/
